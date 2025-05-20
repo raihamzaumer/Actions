@@ -1,5 +1,6 @@
 #!/bin/bash
  sudo apt-get install -y figlet
+ cowsay "Pakistan Zindabad!"
  figlet  "Run for cover, I am a DRAGON......RAWR" >> dragon.txt
  cat dragon.txt
  ls -ltra
