@@ -16,4 +16,4 @@ jobs:
         run: ls -ltra
 
       - name: ASCII Artwork Shell Script
-        run: ./home/hamza-umer/Actions/.github/workflows/ascii artwork.sh
+        run: ./ascii-artwork.sh
