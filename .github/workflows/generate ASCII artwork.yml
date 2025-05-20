@@ -1,0 +1,21 @@
+name: ASCII Art Workflow
+
+on:
+  push:
+  
+
+jobs:
+  ascii-art:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install figlet
+        run:  sudo apt-get install -y figlet
+
+      - name: Print ASCII Art
+        run: |
+          echo "Generating ASCII Art..."
+          figlet "Hello, World!"
