@@ -17,5 +17,5 @@ jobs:
 
       - name: ASCII Artwork Shell Script
         run: |
-            chmod +x ascii-artwork.sh
-            ./ascii-artwork.sh
+            chmod +x .github/workflows/ascii-artwork.sh
+            .github/workflows/ascii-artwork.sh
