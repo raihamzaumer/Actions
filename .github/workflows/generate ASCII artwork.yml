@@ -12,5 +12,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: list files in repo
+        run: ls -ltra
+        
       - name: ASCII Artwork Shell Script
-        uses: ./ascii artwork.sh
+        run: ./ascii artwork.sh
