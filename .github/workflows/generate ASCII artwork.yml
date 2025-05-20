@@ -16,4 +16,6 @@ jobs:
         run: ls -ltra
 
       - name: ASCII Artwork Shell Script
-        run: ./ascii-artwork.sh
+        run: |
+            chmod +x ascii-artwork.sh
+            ./ascii-artwork.sh
