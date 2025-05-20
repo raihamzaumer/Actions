@@ -12,10 +12,5 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install figlet
-        run:  sudo apt-get install -y figlet
-
-      - name: Print ASCII Art
-        run: |
-          echo "Generating ASCII Art..."
-          figlet "Hello, World!"
+      - name: ASCII Artwork Shell Script
+        uses: ./ascii artwork.sh
