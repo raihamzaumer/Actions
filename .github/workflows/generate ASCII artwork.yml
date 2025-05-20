@@ -14,6 +14,6 @@ jobs:
 
       - name: list files in repo
         run: ls -ltra
-        
+
       - name: ASCII Artwork Shell Script
-        run: ./ascii artwork.sh
+        run: ./home/hamza-umer/Actions/.github/workflows/ascii artwork.sh
