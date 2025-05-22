@@ -27,7 +27,7 @@ jobs:
         - name: download dragon text file
           uses: actions/download-artifact@v4
           with:
-            name: download text file artifact
+            name: dragon text file artifact
             
 
         - name: Test file exsit
@@ -41,7 +41,7 @@ jobs:
         - name: download dragon text file
           uses: actions/download-artifact@v4
           with:
-            name: download text file artifact
+            name: dragon text file artifact
             
         - name: read file
           run: cat dragon.txt
