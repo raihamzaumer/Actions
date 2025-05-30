@@ -10,6 +10,12 @@ jobs:
          matrix:
             os: [ubuntu-latest, ubuntu-22.04, window-latest]
             images: [hello-world, alpine]
+            exclude:
+            - image: alpine
+              os: window-latest
+            include:
+            - image: amd64/alpine
+              os: ubuntu-22.04
 
 
         runs-on: ${{matrix.os}}
